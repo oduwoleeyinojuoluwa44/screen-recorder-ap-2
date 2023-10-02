@@ -11,7 +11,7 @@ at the end of the recording transcript may be uploaded to the server by a POST r
 
 # Usage
 
-API root = http://martdev.tech:3000
+API root = http://:3000
 
 1.  Saving a live recording
     a. Connect to the server using browser websock api at ws://martdev.tech:3000
@@ -24,7 +24,7 @@ API root = http://martdev.tech:3000
     ```
     {
     downloadLink: "/URL/AVAILABLE/FOR/24HRS",
-    streamLink: "martdev.tech/api/videos/{video_id}/stream",
+    streamLink: 
     transciptJson: "transcript data",
     dateCreated: date of creation,
     }
